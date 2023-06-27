@@ -1,0 +1,346 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Society Club</title>
+</head>
+<link rel="stylesheet" href="css\style.css">
+<style>
+    /*css reset*/
+    body{
+        margin:0px;
+        padding:0px;
+        background:url('https://blog.myrsa.in/wp-content/uploads/2018/08/Untitled-design-6.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        
+    }
+    .left{
+        display:inline block;
+        color:rgb(244, 249, 244);
+
+    position:absolute;
+    top:20px;
+    left: 60px;
+    text-align: center;
+    font-weight:bold ;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    .left img{
+        width:123px;
+    }
+    .left div{
+        text-align:center;
+        font-style: bold;
+    }
+    .mid{
+    text-decoration-color:rgb(12, 12, 12);
+   border: 2px solid rgb(245, 245, 241);
+   background-image: url('https://th.bing.com/th/id/OIP.edTT40FLlzSD8I-pMhivzgHaE8?pid=ImgDet&rs=1');
+   display:block;
+   width:55%;
+   margin:20px auto;
+   border-style: double;
+   
+
+    }
+    .right{
+        display:inline-block;
+        color:white;
+
+    position:absolute;
+    right:4px;
+    top:20px;
+    }
+    .navbar{
+        display:inline-block;
+        
+    }
+    .navbar li{
+        display:inline-block;
+        font-size:20px;
+    }
+    .navbar li a{
+        color:white;
+        text-decoration: none;
+        padding:34px 23px;
+      
+    }
+    .navbar li a:hover,.navbar li a.active{
+       
+        text-decoration: underline;
+        color:rgb(251, 235, 5);
+        
+      
+    }
+    .btn{
+        margin:0px 9px;
+        background-color: black;
+        color:whitesmoke;
+        text-shadow: 3px;
+        padding:4px 16px;
+        border:2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor:pointer;
+    }
+    .btn:hover{
+        background-color: rgb(255, 5, 113);
+    }
+    .container1{
+        border:2px solid rgb(253, 253, 253);
+        color:rgb(232, 244, 232);
+        padding:75px;
+        margin:122px 80px;
+        width: 18%;
+        border-radius:12px;
+        text-align:center;
+        background-image:url('https://th.bing.com/th/id/OIP.edTT40FLlzSD8I-pMhivzgHaE8?pid=ImgDet&rs=1');
+        text-shadow:white;
+        left:25px;
+        float:left;
+    }
+    .container2{
+        border:2px solid rgb(253, 253, 253);
+        color:rgb(232, 244, 232);
+        padding:75px;
+        margin:122px 80px;
+        width: 18%;
+        border-radius:12px;
+        text-align:center;
+        background-image:url('https://th.bing.com/th/id/OIP.edTT40FLlzSD8I-pMhivzgHaE8?pid=ImgDet&rs=1');
+        text-shadow:white;
+        left:25px;
+        float:right;
+      
+
+    }
+    .form-group input{
+        text-align:center;
+        display:block;
+        width: 20%;
+        padding: 63px;
+        border:2px solid black;
+        margin:3px auto;
+    }
+    .register{
+        color:rgb(5, 238, 250);
+        cursor:pointer;
+    }
+
+</style>
+<body>
+    <header class="header">
+        
+    </header>
+   <!-- left box for logo -->
+    <div class="left">
+ <img src="https://th.bing.com/th/id/R.be8b51fda7658a2853c245ae2b2d79f8?rik=uNaM1mbZoZWSHw&riu=http%3a%2f%2fcibiod.in%2fassets%2fimages%2fcibiod%2fourBrains%2f8_thapar.png&ehk=VsWhr%2bTBkQdYKcdBAWW1UxUfiWkOlMSajN5GNpeQd3Q%3d&risl=&pid=ImgRaw&r=0" alt=" ">
+   
+   
+    <div>SOCIETY CLUB</div>
+</div>
+    <!---mid  box for nav bar-->
+    <div class="mid">
+ 
+ <ul class="navbar">
+    <li><a href='home.php'> Home</a></li>
+    <li><a href='societies.php'>Societies</a></li>
+    <li><a href='events.php'>Events</a></li>
+    <li><a href='wanna_member.php'>Wanna Member?</a></li>
+    <li><a href='signout.php'>Sign Out</a></li>
+   
+     </ul>
+    </div>
+    <!-- right box for buttons-->
+   
+ <div class="container1">
+    <h1>THAPAR ADVENTURE CLUB</h1>
+    <button class="btn"><a href="https://adventureclubthapar.netlify.app/">Click here</a></button>
+    A forum for adventure enthusiasts, trekkers, climbers and armchair mountaineers in the student community.
+    It works to develop the spirit of adventure in Thaparians. While the stock activities are trekking, rock climbing and mountain cycling,
+    the adventure club has also organized sking
+    and river rafting sporadically.
+    </div>
+    
+    <div class="container2">
+    <h1>CREATIVE COMPUTING SOCIETY</h1>
+    <button class="btn"><a href="https://sites.google.com/thapar.edu/ccs">Click here</a></button>
+    Creative Computing Society strives to encourage students to develop
+    an analytical temperament in the field of technology and innovation. 
+    The society conducts workshops and coding competitions on a regular basis, 
+    thus acting as a platform for students to showcase and nurture their technical skill 
+    to discover their best lying potential. Over the years the society has had numerous pivotal
+    collaborations with organizations like Google Developers Group, Women Techmaker, Mozilla
+    Webmaker, PyData to name a few.
+
+   </div>
+    <div class="container1">
+        <h1>ENACTUS</h1>
+        <button class="btn"><a href="https://sites.google.com/thapar.edu/enactusthapar/">Click here</a></button>
+          ENACTUS is a community of students, academic and business leaders committed
+         to using entrepreneurial action to transform lives and shape a better world.
+        </div>
+
+        <div class="container2">
+            <h1>Sports Club</h1>
+            <button class="btn"><a href="http://127.0.0.1:5500/this_project/society/sportsclub.html">Click here</a></button>
+
+            Sport can be seen as a sign of the quality of our society,
+     our identity within that society or possibly an escape from society and life. 
+     Sport offers a national identity, uniting countries nationally and internationally, 
+     it can be used to shape values and morals within society. Sports can also breakdown social
+      barriers, stereotypes and prejudices.<br>
+
+    <br>The principles and philosophy of the games:
+    <ul>
+  <li> Enhance quality of life</li> 
+   <li>Reduce medical costs</li> 
+   <li> Increase productivity</li>
+</ul>
+            </div>
+    
+<div class="container1">
+<h1>Literature Society</h1>
+<button class="btn"><a href="https://sites.google.com/thapar.edu/litsoc/home">Click here</a></button>
+The primary objective of Literary Society is to inculcate among students a keen sense of language and 
+appreciation for myriad literary expressions, forms and genres.
+</div>
+
+    
+    <div class="container2">
+    <h1>Paryawaran Welfare Society</h1>
+    <button class="btn"><a href="https://sites.google.com/thapar.edu/pwsthapar">Click here</a></button>
+        In the ongoing era, our fragile earth needs acute attention for its prevalence, PWS endures to maintain the biodiversity, 
+        conservation of water, air and energy resources.
+    </div>
+    <div class="container1">
+        <h1>Fine Arts and Phography Society</h1>
+        <button class="btn"><a href="https://sites.google.com/thapar.edu/faps/">Click here</a></button>
+        FAPS is grooming the engineering and management graduates of TIET to converse through the medium of art. FAPS is a vibrant society having a tradition of mentoring the youngsters through workshops on Sketching, 
+        Painting, Photography, Calligraphy and Photoshop.
+        </div>
+
+        <div class="container2">
+            <h1>Lead Society</h1>
+            <button class="btn"><a href="https://sites.google.com/thapar.edu/lead-tiet">Click here</a></button>
+            LEAD society provides platform to students of all disciplines to organize industrial visits, lectures and workshops.
+             It is a one stop society for institute-industry collaboration for students
+            </div>
+        
+            <div class="container1">
+                <h1>Thapar Mathematical Society</h1>
+                <button class="btn"><a href="https://sites.google.com/thapar.edu/thapar-mathematical-society">Click here</a></button>
+                Thapar Mathematical Society promote mathematics and its applications among the young people and in society by providing them a
+                 platform for interaction through expert talks, events, activities and workshops.
+                </div>
+              
+    
+                    <div class="container1">
+                        <h1>Economics Club</h1>
+                        <button class="btn"><a href="https://sites.google.com/view/econclub/">Click here</a></button>
+                        Econ Club provides a forum to identify and discuss economic, social and political issue. The Econ Club organises Economics Quizzes; Debating competitions;
+                         World Economic Forum to help find solutions to emerging issues.
+                        </div>
+                        <div class="container2">
+                            <h1>Thapar Movie Club</h1>
+                            <button class="btn"><a href="https://sites.google.com/thapar.edu/thaparmovieclub/home">Click here</a></button>
+                            Thapar Movie Club aims to promote movie making on the academic, social and cultural subjects that impact the society. Inviting famous personalities related to movie making for
+                             interaction with TIET community is the other objective of the club.
+                            </div>
+                            <div class="container1">
+                                <h1>Acm Computing Chapter</h1>
+                                <button class="btn"><a href="https://sites.google.com/thapar.edu/tiet-acm/home">Click here</a></button>
+                                To provide a platform for serving as a professional network, encouraging students to take active interest in organization of high quality ACM workshops, Symposium, Seminar
+                                 expert lectures, conferences in India and also provide logistical support
+
+                                </div>
+                                <div class="container2"> 
+                                    <h1>Youth United Chapter<h1>
+                                    <button class="btn"><a href="https://sites.google.com/thapar.edu/youth-united-patiala-chapter/home">Click here</a></button>
+                                 
+                                    
+                                    </div>
+                                    <div class="container1">
+                                        <h1>Thapar Toastmasters Club</h1>
+                                        <button class="btn"><a href="https://sites.google.com/view/thapartoastmasters">Click here</a></button>
+                                        Thapar Toastmasters Club, a chapter of Toastmasters International is an organization that helps its members to improve their public speaking, communication and leadership skills.
+                                        The club facilitates members to not only overcome their stage fear and improve their communication skills, 
+                                        but also become better orators and leaders of tomorrow.
+        
+                                        </div>
+                                        <div class="container2">
+                                            <h1>Backslash Computing Society</h1>
+                                            <button class="btn"><a href="https://sites.google.com/thapar.edu/bcs">Click here</a></button>
+                                            Backslash Computing Society has been envisioned to promote and inculcate interest in the field of
+                                             Computer Science for the students of Derabassi Campus. Backslash aims at providing an opportunity for technical enthusiasts 
+                                            to interact with each other and a platform to display and hone their skills in the wonderful world of computing.
+                                            </div>
+                                            <div class="container1">
+                                                <h1>TEdx Tiet</h1>
+                                                <button class="btn"><a href="https://sites.google.com/thapar.edu/tedxtiet">Click here</a></button>
+                                                TEDx TIET aims at bringing the best of orators and speakers to the institute platform under the TED initiative.
+                                                 The 20 minute sessions on social and technical issues are recorded and uploaded on YouTube and TED links.
+                                                </div>
+                                                <div class="container2">
+                                                    <h1>Entrepreneurship Development Cell (EDC)</h1>
+                                                    <button class="btn"><a href="https://sites.google.com/thapar.edu/edctiet">Click here</a></button>
+                                                    EDC aims at developing the spirit of entrepreneurship among the students of Thapar Institute of Engineering and Technology. It not only ignites the minds but also nurtures the ideas of students .
+                                                     EDC is committed to build a strong platform for budding entrepreneurs as a career, as a path to success, as a journey of wisdom.
+                                                    </div>
+                                                    <div class="container1">
+                                                        <h1>GirlUpTIET Society</h1>
+                                                        <button class="btn"><a href="https://sites.google.com/thapar.edu/girlup/">Click here</a></button>
+                                                        Girl Up is a United Nations Foundation’s adolescent girl campaign. 
+                                                        This society envisions a world where every girl can reach her full potential and
+                                                         lead the way to bigger dreams, healthier communities and stronger nations. 
+                                                         The Girl Up platform exposes girls to issues at the intersection of gender equality, sports and storytelling. 
+                                                         This society organizes events that instil social empowerment amongst girls through higher self-confidence, compassion, empathy, social collaboration and civic participation.
+
+                                                        </div>
+                                                        <div class="container2">
+                                                            <h1>Cogito, the philosophers society</h1>
+                                                            <button class="btn"><a href="https://sites.google.com/thapar.edu/cogito">Click here</a></button>
+                                                            Cogito is the Philosophy Society run by students of the School of Liberal Arts and Science, TIET. 
+                                                            Our mission is to promote the disseminatioof Philosophy by organizing public debates, talks, and social events.
+                                                             The study of Philosophy is of outmost importance for the developmeneffective thinking and logical capacities,
+                                                              the enhancement of cross-domain conceptual understanding and problem-solving, and the cultivation ointellectual 
+                                                              freedom and curiosity. We welcome anyone, from any discipline, and we provide a safe and stimulating space for discussion.
+                                                            </div>
+                                                            <div class="container1">
+                                                                <h1>Elpis, the psychology society</h1>
+                                                                <button class="btn"><a href="https://sites.google.com/thapar.edu/elpis/home">Click here</a></button>
+                                                                Cogito is the Philosophy Society run by students of the School of Liberal Arts and Science, TIET. 
+                                                                Our mission is to promote the disseminatioof Philosophy by organizing public debates, talks, and social events.
+                                                                 The study of Philosophy is of outmost importance for the developmeneffective thinking and logical capacities,
+                                                                  the enhancement of cross-domain conceptual understanding and problem-solving, and the cultivation ointellectual 
+                                                                  freedom and curiosity. We welcome anyone, from any discipline, and we provide a safe and stimulating space for discussion.
+                                                                </div>
+                                                                <div class="container2">
+                                                                    <h1>Pratigya Society</h1>
+                                                                    <button class="btn"><a href="https://sites.google.com/view/pratigyasociety">Click here</a></button>
+                                                                    PRATIGYA, a society, is working, consistently for social welfare. This society develops teams of student volunteers from the undergraduate, post-graduate and Management programs, who teach the underprivileged kids from classes I to XII. 
+                                                                    These kids include children of class four employees of Thapar Institute as well as kids residing outside Thapar.
+                                                                    </div>
+                                                                    <div class="container2">
+                                                                        <h1>Thapar Amateur Astronomers Society (TAAS)</h1>
+                                                                        <button class="btn"><a href="https://sites.google.com/thapar.edu/taas/home">Click here</a></button>
+                                                                        TAAS explores the cosmos with science and engineering with the objective of cultivating scientific temperament, nourishing inquisitive young minds and encouraging innovation in those who do not get a chance in the daily load of the engineering course. This society creates a platform for students who are interested in applying their knowledge and skills in the field of Astronomy
+                                                                         and opens up opportunities for students willing to work as professionals in the subject.
+                                                                        </div>
+
+                                                                        
+                        
+                
+        
+            
+    
+    </body>
+        
+
+</body>
+</html> 
